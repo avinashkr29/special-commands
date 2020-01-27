@@ -1,0 +1,9 @@
+#Command to see python path
+#Python 2
+python -c "import sys; print sys.executable"
+#Python 3
+python -c "import sys; print(sys.executable)"
+
+#Pyinstaller Command
+python -m PyInstaller --onefile C:\Users\kpjz923\Desktop\table_test\ExcelScript_v1.py
+
