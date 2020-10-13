@@ -5,5 +5,7 @@ python -c "import sys; print sys.executable"
 python -c "import sys; print(sys.executable)"
 
 #Pyinstaller Command
+#Running in Anaconda prompt will make package of GBs and will take a lot of time. So, run it in Command Prompt Python.
+#Make sure, the packages used in script are installed in Python instance (not anaconda instance), else you will get an error of module not found. 
 python -m PyInstaller --onefile C:\Users\kpjz923\Desktop\table_test\ExcelScript_v1.py
 
